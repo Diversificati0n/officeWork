@@ -5,3 +5,6 @@ def filter_strings(strings):
             result.append(string)
     return result
 
+array1 = ["hello", "2", "world", ":-)"]
+filtered_array1 = filter_strings(array1)
+print(filtered_array1)
